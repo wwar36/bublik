@@ -1,0 +1,48 @@
+body {
+    background: url('./12321312.png');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center; 
+}
+p{
+
+    display: flex;
+    width: 265px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    /*background: linear-gradient(45deg, #3498db, #9b59b6);*/
+    background: url('./image.png');
+    background-size:contain;
+    background-repeat: no-repeat; 
+    background-position: center; 
+    transition-property: 6s;
+    color: white;
+    border-style: double;
+    border-radius: 40px;
+    margin: 20px 40%;
+    color: aliceblue;
+
+}
+.d{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p:hover{
+    
+    opacity: 0.5;
+    transition-duration: 2s;
+}
+.l{
+    color:chartreuse;
+}
+ul{
+    color: aliceblue;
+}
+button:hover{
+    background-color: brown;
+}
